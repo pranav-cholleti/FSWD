@@ -5,12 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSE-A Timetable</title>
     <style>
-        table, th, td { border: 1px solid black; border-collapse: collapse; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h2, h3, h4 {
+            text-align: center;
+            color: #333;
+        }
+        img {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 150px;
+            height: auto;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        td a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .footer-info {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .footer-info div {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
+    <div class="header-section">
+        <img src="./images/VCELOGO.gif" width="100" alt="College Logo">
+        <h2>VASAVI COLLEGE OF ENGINEERING (AUTONOMOUS)</h2>
+        <h4>Ibrahimbagh, Hyderabad</h4>
+        <h3>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3>
+        <h4><u>TIMETABLE (ROOM NO R-301)</u></h4>
+        <h4><u>CLASS : B.E. V-SEMESTER (CSE-A)</u></h4>
+    </div>
+    <div class="container">
+        <div class="footer-info" style="display: flex; justify-content: space-between;">
+            <div>YEAR: 2024-25</div>
+            <div>w.e.f 05.08.2024</div>
+        </div>
+        <table>
+            <tr>
+                <td align="center">TIME/DAY</td>
+                <td align="center">9.40 AM TO 10.40 AM</td>
+                <td align="center">10.40 AM TO 11.40 AM</td>
+                <td align="center">11.40 AM TO 12.40 PM</td>
+                <td align="center">12.40 PM TO 01.20 PM</td>
+                <td align="center">01.20 PM TO 02.20 PM</td>
+                <td align="center">02:20 PM TO 03.20 PM</td>
+                <td align="center">03.20 PM TO 04.20 PM</td>
+            </tr>
     <img src="./images/VCELOGO.gif" style="float: left; margin-right: 10px;" width="100" ></img>
-    <h2 align="center">VASAVI COLLEGE OF ENGINEERING (AUTONOMOUS)</h2>
+    <h2 align="center">Issueres Resolution</h2>
     <h4 align="center">Ibrahimbagh, Hyderabad</h4>
     <h3 align="center">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3>
     <h4 align="center"><u>TIMETABLE (ROOM NO R-301)</u></h4>
